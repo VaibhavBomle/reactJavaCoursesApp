@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap';
 import  {ToastContainer, toast} from "react-toastify";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Course from './components/Course';
+import AllCourse from './components/AllCourse';
 
 function App() {
   const btnHandle =() =>{
@@ -15,10 +14,10 @@ function App() {
   };
   return (
      <div>
-      <Header/>
+      {/* <Header/> */}
       <ToastContainer/>
       <Home/>
-      <Course course = {{title:"Django course", description :"Django is very easy to learn"}}/>
+      <AllCourse/>
      </div>
   );
 }
