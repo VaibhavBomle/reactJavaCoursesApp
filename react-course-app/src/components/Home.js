@@ -4,9 +4,9 @@ import { Button, Container } from 'reactstrap';
 function Home() {
   return (
     <div className='text-center' style={{ backgroundColor: 'silver' }}>
-      <h1 className='display-3'>Learing code is very easy...</h1>
+      <h1>Learing code is very easy...</h1>
       <Container>
-      <h1>Learn Code ....!!</h1>
+      <p>Lets learn and understand all technologies.....</p>
         <Button color='primary' size='3g' outline>
           Start Using
         </Button>
